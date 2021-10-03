@@ -25,7 +25,7 @@ function App() {
           </Route>
 
           <Route path="/courses">
-            <Course></Course>
+            <Courses></Courses>
           </Route>
           {/* <Route path="/friend/:friendId">
             <FriendDetail></FriendDetail>
