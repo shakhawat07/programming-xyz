@@ -1,0 +1,16 @@
+.course{
+    margin-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.course img{
+    width: 270px;
+    height: 200px;
+    border-radius: 12px;
+}
+.course img:hover{
+    transform: scale(1.07);
+}
+.card-background{
+    background-color: #fdfdfdab;
+}
