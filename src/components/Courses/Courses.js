@@ -18,7 +18,8 @@ const Courses = () => {
                         <Course
                             key={course.id}
                             course={course}
-                        ></Course>)
+                        ></Course>
+                    )
                 }
             </div>
 

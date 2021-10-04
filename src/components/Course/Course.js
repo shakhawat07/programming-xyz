@@ -1,16 +1,15 @@
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
 
 const Course = (props) => {
-    const { id, name, duration, price, instructor, level, img } = props.course;
+    const { name, duration, price, instructor, level, img } = props.course;
     // console.log(props.course);
-    const friendStyle = {
-        border: '3px solid goldenrod',
-        margin: '10px',
-        padding: '10px',
-        borderRadius: '10px',
-        color: 'white'
-    }
+    // const courseStyle = {
+    //     border: '3px solid goldenrod',
+    //     margin: '10px',
+    //     padding: '10px',
+    //     borderRadius: '10px',
+    //     color: 'white'
+    // }
     return (
 
         <div className="row course p-5">

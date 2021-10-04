@@ -1,0 +1,7 @@
+.about-container{
+    background-color: #ffffffa3;
+}
+.about-container img{
+    border: 0.25rem solid white;
+    border-radius: 3rem;
+}

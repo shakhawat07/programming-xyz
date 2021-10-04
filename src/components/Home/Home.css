@@ -1,6 +1,26 @@
 .home{
-    background-color: rgba(145, 140, 140, 0.54);
+    /* background-color: rgba(145, 140, 140, 0.54); */
 }
 .home-details{
     line-height: 40px;
+}
+.home-course-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.home-heading{
+    color: white;
+    background-color: #00000096;
+}
+.home-trending-title{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    color: white;
+    background-color: #00000096;
+
 }

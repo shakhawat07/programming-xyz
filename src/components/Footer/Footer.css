@@ -1,9 +1,9 @@
 .footer{
-    position: fixed;
-    padding: 10px 10px 0px 10px;
+    /* position: fixed; */
+    /* padding: 20px 20px 0px 20px;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
     /* Height of the footer*/ 
-    height: 40px;
-    background: grey;
+    /* height: auto;
+    background: grey; */
 }

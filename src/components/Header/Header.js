@@ -1,33 +1,34 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     const activeStyle = {
         fontWeight: "bold",
-        color: "white"
+        color: "tomato"
     };
     return (
-        <Navbar bg="dark" variant="dark">
-            <Container>
-                <Navbar.Brand className="fs-2">Programming XYZ</Navbar.Brand>
-                <Nav className="p-3 d-flex align-items-end justify-content-end fs-4">
-                    <NavLink className="me-3"
+        <Navbar sticky="top" bg="black" variant="dark" expand="md">
+            <Container fluid>
+                <Navbar.Brand className="fs-1 fw-bolder ms-5">Programming XYZ</Navbar.Brand>
+                <Nav className="d-flex align-items-end justify-content-end">
+                    <NavLink className="nav"
                         activeStyle={activeStyle}
                         to="/home">Home
                     </NavLink>
-                    <NavLink className="me-3"
+                    <NavLink className="nav"
                         activeStyle={activeStyle}
                         to="/courses">Courses
                     </NavLink>
-                    <NavLink className="me-3"
+                    <NavLink className="nav"
                         activeStyle={activeStyle}
                         to="/about">About
                     </NavLink>
-                    {/* <NavLink
-                activeStyle={activeStyle}
-                to="/about/culture">Culture
-            </NavLink> */}
+                    <NavLink className="nav"
+                        activeStyle={activeStyle}
+                        to="/login">Login
+                    </NavLink>
 
 
                 </Nav>
