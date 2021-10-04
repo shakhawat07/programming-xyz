@@ -14,7 +14,7 @@ const Login = () => {
                     <label className="text-black fw-bold mx-3">Password : </label>
                     <input type="password" placeholder="Enter Password" name="password" autoComplete="on" required />
                     <br />
-                    <div className="">
+                    <div className="mt-4 ms-5">
                         <button className="btn btn-danger ps-3 mx-4 rounded" type="submit">Login</button>
                         <input type="checkbox" />
                         <span className="ms-3 text-black fw-bolder">Remember me</span>

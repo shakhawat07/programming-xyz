@@ -1,11 +1,12 @@
 # Programming XYZ
 
-Live site project link: [Programming XYZ](https://project-hunger-ending.netlify.app/).
+Live site project link: [Programming XYZ](https://programming-xyz.netlify.app/).
 
 ### Project Highlight
 
-* Many programming language courses are there
+* Programming language courses website
+* Trending courses are in the home section 
 * Find your course on the courses section 
 * Error 404 occur if your path doesn't exist
-* You can Register in the register section
+* Go to the login section to login
 
