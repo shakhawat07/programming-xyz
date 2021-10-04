@@ -5,3 +5,6 @@
     border: 0.25rem solid white;
     border-radius: 3rem;
 }
+button:hover { 
+    transform: scale(1.1);
+} 

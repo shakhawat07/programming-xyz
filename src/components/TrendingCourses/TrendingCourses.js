@@ -6,7 +6,7 @@ const TrendingCourses = (props) => {
         <div className="pb-4 container-fluid">
             <div className="row d-flex justify-content-start align-items-start py-3 mx-3 h-100 bg-white rounded">
                 <div className="col-lg-5 col-md-12 cl-sm-12 col-12">
-                    <img style={{ width: '200px', height: '130px' }} src={img} alt="" />
+                    <img className="border border-dark border-2 rounded p-2" style={{ width: '200px', height: '130px' }} src={img} alt="" />
                 </div>
                 <div className="col-lg-7 col-md-12 col-sm-12 col-12">
                     <div className="text-start ps-2">

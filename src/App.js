@@ -20,21 +20,15 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route exact path="/about">
-            <About></About>
-          </Route>
-
           <Route path="/courses">
             <Courses></Courses>
+          </Route>
+          <Route exact path="/about">
+            <About></About>
           </Route>
           <Route path="/login">
             <Login></Login>
           </Route>
-          {/* <Route path="/friend/:friendId">
-            <FriendDetail></FriendDetail>
-          </Route> */}
-
-
           <Route path="*">
             <NotFound></NotFound>
           </Route>

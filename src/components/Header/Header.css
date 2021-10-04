@@ -7,4 +7,5 @@
 }
 .nav:hover{
     color: tomato;
+    transform: scale(1.15);
 }

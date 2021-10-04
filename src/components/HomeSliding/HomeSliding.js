@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './HomeSliding.css'
-// style={{ width: '400px', height: '200px' }}
+
 const HomeSliding = () => {
     return (
         <div className="mx-5 p-5 home-sliding-container text-dark">
@@ -43,7 +43,6 @@ const HomeSliding = () => {
                 </Carousel.Item>
             </Carousel>
         </div>
-
     );
 };
 

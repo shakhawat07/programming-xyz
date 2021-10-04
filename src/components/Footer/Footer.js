@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="container-fluid">
-            <div className="row bg-black text-white footer py-3 px-1">
+            <div className="row bg-black text-white py-3 px-1">
                 <div className="col-lg-8 col-md-12 cl-sm-12 col-12 px-5 d-flex justify-items-center align-items-center">
                     <h3> © 2021 Programming XYZ</h3>
                 </div>
@@ -14,10 +14,7 @@ const Footer = () => {
                     <p><span className="fw-lighter">Mobile:</span> 0197666****</p>
                     <p><span className="fw-lighter">Email: </span>programming07@gmail.com</p>
                 </div>
-
             </div>
-
-
         </div>
     );
 };

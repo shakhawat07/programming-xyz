@@ -5,7 +5,7 @@ import './Login.css'
 const Login = () => {
     return (
         <div className="container-fluid">
-            <div className="login-container m-5 p-5">
+            <div className="login-container">
                 <form action="">
                     <h2 className="text-black fw-bold">Login</h2>
                     <label className="text-black fw-bold mx-3">Username : </label>
@@ -17,9 +17,9 @@ const Login = () => {
                     <div className="mt-4 ms-5">
                         <button className="btn btn-danger ps-3 mx-4 rounded" type="submit">Login</button>
                         <input type="checkbox" />
-                        <span className="ms-3 text-black fw-bolder">Remember me</span>
+                        <span className="ms-2 text-black fw-bolder">Remember me</span>
                         <button className="btn btn-danger px-3 mx-4 rounded" type="button"> Cancel</button>
-                        <span className="ms-3 text-black fw-bolder">Forgot <Link to="#"> password? </Link></span>
+                        <span className="ms-2 text-black fw-bolder">Forgot <Link to="#"> password? </Link></span>
                     </div>
                 </form>
             </div>

@@ -7,7 +7,6 @@ const NotFound = () => {
                 <img className="rounded-3" src="https://learn.getgrav.org/user/pages/11.troubleshooting/01.page-not-found/error-404.png" alt="" />
             </div>
         </div>
-
     );
 };
 

@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
+    // NavLink activeStyle 
     const activeStyle = {
         fontWeight: "bold",
         color: "tomato"
@@ -29,14 +30,9 @@ const Header = () => {
                         activeStyle={activeStyle}
                         to="/login">Login
                     </NavLink>
-
-
                 </Nav>
             </Container>
         </Navbar>
-        // <nav className="navbar navbar-dark bg-dark text-whitey">
-
-        // </nav>
     );
 };
 

@@ -12,18 +12,17 @@ const Courses = () => {
     // console.log(courses);
     return (
         <div className="courses-container">
-            <div className="course-container">
-                {
-                    courses.map(course =>
-                        <Course
-                            key={course.id}
-                            course={course}
-                        ></Course>
-                    )
-                }
-            </div>
-
+            {
+                courses.map(course =>
+                    <Course
+                        key={course.id}
+                        course={course}
+                    ></Course>
+                )
+            }
         </div>
+
+
 
     );
 
